@@ -35,16 +35,7 @@ Learn to preprocess and normalize image data, build and train a CNN using Tensor
 - airplane,automobile,bird,cat,deer,dog,frog,horse,ship,truck.
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
 ## 🛠️ Model Architecture
-Used a sequential Convolutional Neural Network (CNN) with the following layers:
-- Conv2D (32 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Conv2D (64 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Conv2D (64 filters, 3x3 kernel, ReLU)
-- Flatten
-- Dense (64 units, ReLU)
-- Dense (10 units, Softmax output layer)
-
+A simple CNN with 3 convolutional layers, each followed by ReLU and max-pooling, then flattened and passed through a dense layer and a final softmax output layer for classification.
 The model was compiled using the **Adam optimizer**, **sparse categorical cross-entropy** as the loss function, and accuracy as the evaluation metric.
 
 ## 🧪 Training & Evaluation
