@@ -50,6 +50,9 @@ These plots are useful for understanding model behavior and spotting signs of ov
 
 ## 💾 Model Saving:
 The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy reuse or deployment in applications without retraining.
-```python
 model.save("cnn_model.h5")
+
+# OUTPUT :
+
+
 
