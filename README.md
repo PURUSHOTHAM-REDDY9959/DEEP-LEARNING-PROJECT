@@ -37,15 +37,11 @@ This project demonstrates a complete deep learning workflow — from data prepro
 ## 📚 Dataset
 
  **CIFAR-10** dataset  contains 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is a widely used benchmark dataset for image classification.
-
-Classes:
+#  Classes:
 - airplane,automobile,bird,cat,deer,dog,frog,horse,ship,truck.
-
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
 ## 🛠️ Model Architecture
-
- used a sequential Convolutional Neural Network (CNN) with the following layers:
-
+Used a sequential Convolutional Neural Network (CNN) with the following layers:
 - Conv2D (32 filters, 3x3 kernel, ReLU)
 - MaxPooling2D (2x2)
 - Conv2D (64 filters, 3x3 kernel, ReLU)
@@ -67,29 +63,12 @@ The model is trained over **10 epochs** on the training set with real-time valid
 Two visualizations are generated and saved:
 - `accuracy_plot.png`: A plot showing how training and validation accuracy progressed over epochs.
 - `sample_predictions.png`: A 3x3 grid of test images showing actual vs predicted labels.
-
 These plots are useful for understanding model behavior and spotting signs of overfitting or underfitting.
 
-
-
-## 💾 Model Saving
-
+## 💾 Model Saving:
 The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy reuse or deployment in applications without retraining.
-
 ```python
 model.save("cnn_model.h5")
-
-
-
-# 📦 Requirements
-Python 3.7+
-TensorFlow
-Keras
-NumPy
-Matplotlib
-Flask (for deployment)
-
-
 
 # OUTPUTS :
 
