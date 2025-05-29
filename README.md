@@ -11,6 +11,8 @@
 **DURATION** : 8 WEEEKS
 
 **MENTOR**   : NEELA SANTOSH
+
+
 # 🧠 Deep Learning Project: 
 
 # Image Classification with CNN (TensorFlow)
