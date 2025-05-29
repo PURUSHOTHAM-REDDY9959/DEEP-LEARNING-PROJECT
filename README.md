@@ -30,18 +30,35 @@ Learn to preprocess and normalize image data, build and train a CNN using Tensor
 
  **CIFAR-10** dataset  contains 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is a widely used benchmark dataset for image classification.
 #  Classes:
-- airplane,automobile,bird,cat,deer,dog,frog,horse,ship,truck.
+- airplane
+- automobile
+- bird
+- cat
+- deer
+- dog
+- frog
+- horse
+- ship
+- truck
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
-## 🛠️ Model Architecture
+## 🛠️ Model Architecture:
+- Conv2D (32 filters, 3x3 kernel, ReLU)
+- MaxPooling2D (2x2)
+- Conv2D (64 filters, 3x3 kernel, ReLU)
+- MaxPooling2D (2x2)
+- Conv2D (64 filters, 3x3 kernel, ReLU)
+- Flatten
+- Dense (64 units, ReLU)
+- Dense (10 units, Softmax output layer)
 A simple CNN with 3 convolutional layers, each followed by ReLU and max-pooling, then flattened and passed through a dense layer and a final softmax output layer for classification.
 The model was compiled using the **Adam optimizer**, **sparse categorical cross-entropy** as the loss function, and accuracy as the evaluation metric.
 
-## 🧪 Training & Evaluation
+## 🧪 Training & Evaluation:
 
 The model is trained over **10 epochs** on the training set with real-time validation on the test set. Accuracy and loss values are plotted to visually monitor the training process. After training, the model is evaluated on the test dataset, and the final accuracy is printed.
 
 
-## 📈 Visualizations
+## 📈 Visualizations:
 
 Two visualizations are generated and saved:
 - `accuracy_plot.png`: A plot showing how training and validation accuracy progressed over epochs.
