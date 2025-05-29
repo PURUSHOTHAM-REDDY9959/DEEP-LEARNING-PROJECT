@@ -12,6 +12,8 @@
 
 **MENTOR**   : NEELA SANTOSH
 
+# OUTPUT:
+
 
 # 🧠 Deep Learning Project: 
 
@@ -54,14 +56,4 @@ These plots are useful for understanding model behavior and spotting signs of ov
 The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy reuse or deployment in applications without retraining.
 ```python
 model.save("cnn_model.h5")
-
-# OUTPUTS :
-
-![Image](https://github.com/user-attachments/assets/5342e9eb-a58b-47b0-b913-e72c10baf3c3)
-
-![Image](https://github.com/user-attachments/assets/dc8ac571-9835-4f14-bfa2-d94fea21377e)
-
-![Model Accuracy Plot](images/accuracy_plot.png)
-
-![Sample Predictions](images/sample_predictions.png)
 
