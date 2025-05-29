@@ -53,8 +53,3 @@ The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy r
 ```python
 model.save("cnn_model.h5")
 
-# OUTPUT:
-![Screenshot 2025-05-28 155700](https://github.com/user-attachments/assets/9a9d8a38-5222-4981-9991-75a5f5ebcb79)
-![loss_plot](https://github.com/user-attachments/assets/611e6a6d-9a7e-4685-b634-c2df64cc28c0)
-![accuracy_plot](https://github.com/user-attachments/assets/736268ea-06f5-40d4-a3b7-2b82d6aebb5c)
-
