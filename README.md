@@ -61,3 +61,7 @@ model.save("cnn_model.h5")
 
 ![Image](https://github.com/user-attachments/assets/dc8ac571-9835-4f14-bfa2-d94fea21377e)
 
+![Model Accuracy Plot](images/accuracy_plot.png)
+
+![Sample Predictions](images/sample_predictions.png)
+
