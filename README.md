@@ -82,12 +82,13 @@ Implement model checkpointing and early stopping.
 Deploy the model using Flask or FastAPI to build a web interface for live predictions.
 
 Experiment with transfer learning using pretrained models like MobileNet or ResNet.
-
-# 🧾 Conclusion
-This project is a hands-on example of how to develop a deep learning model for image classification from start to finish. It emphasizes good practices such as data preprocessing, structured model building, evaluation through metrics and visuals, and model saving for deployment. By following this project, one can gain practical experience in applying CNNs using TensorFlow and prepare for more advanced deep learning applications.
-## 💾 Model Saving:
+# 💾 Model Saving
 The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy reuse or deployment in applications without retraining.
 model.save("cnn_model.h5")
+
+# 🧾 Conclusion:
+This project is a hands-on example of how to develop a deep learning model for image classification from start to finish. It emphasizes good practices such as data preprocessing, structured model building, evaluation through metrics and visuals, and model saving for deployment. By following this project, one can gain practical experience in applying CNNs using TensorFlow and prepare for more advanced deep learning applications.
+
 
 # OUTPUT :
 
