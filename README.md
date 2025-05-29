@@ -13,7 +13,9 @@
 **MENTOR**   : NEELA SANTOSH
 
 
-# 🧠 Deep Learning Project: Image Classification with CNN (TensorFlow)
+# 🧠 Deep Learning Project: 
+
+# Image Classification with CNN (TensorFlow)
 
 ## 📌 Overview
 
@@ -51,16 +53,7 @@ This project demonstrates a complete deep learning workflow — from data prepro
  **CIFAR-10** dataset  contains 60,000 32x32 color images in 10 different classes, with 6,000 images per class. It is a widely used benchmark dataset for image classification.
 
 Classes:
-- airplane
-- automobile
-- bird
-- cat
-- deer
-- dog
-- frog
-- horse
-- ship
-- truck
+- airplane,automobile,bird,cat,deer,dog,frog,horse,ship,truck.
 
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
 
@@ -121,10 +114,9 @@ Flask (for deployment)
 
 # OUTPUTS :
 
-
-
 ![Image](https://github.com/user-attachments/assets/081b490e-b4a9-4b33-b7a8-070a1c088725)
 
 ![Image](https://github.com/user-attachments/assets/74a29990-3f25-4234-8c71-17ab849de91a)
 
 ![Image](https://github.com/user-attachments/assets/aaac73e6-0bd2-4a35-a095-5740d275c89e)
+
