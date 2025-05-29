@@ -17,13 +17,13 @@
 
 # Image Classification with CNN (TensorFlow)
 
-## 📌 Overview
+## Description:
 
 This project is an implementation of an image classification model using deep learning techniques. The model is built using a Convolutional Neural Network (CNN) with TensorFlow and trained on the CIFAR-10 dataset. The goal is to classify images into one of ten categories such as airplanes, cars, birds, cats, and more.
 
 This project demonstrates a complete deep learning workflow — from data preprocessing and model training to evaluation and visualization — in a clean, modular, and reproducible way. It is implemented in Python using VS Code as the development environment and TensorFlow/Keras as the deep learning framework.
 
----
+
 
 ## 🎯 Project Objectives
 
@@ -33,20 +33,6 @@ This project demonstrates a complete deep learning workflow — from data prepro
 - Evaluate the model on unseen test data.
 - Visualize training performance and prediction results.
 - Save the trained model for future inference or deployment.
-
----
-
-## 📂 Folder Structure
-
-
-
-
-
-
-
-
-
----
 
 ## 📚 Dataset
 
@@ -58,7 +44,7 @@ Classes:
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
 ## 🛠️ Model Architecture
 
-We used a sequential Convolutional Neural Network (CNN) with the following layers:
+ used a sequential Convolutional Neural Network (CNN) with the following layers:
 
 - Conv2D (32 filters, 3x3 kernel, ReLU)
 - MaxPooling2D (2x2)
@@ -97,18 +83,11 @@ model.save("cnn_model.h5")
 
 # 📦 Requirements
 Python 3.7+
-
 TensorFlow
-
 Keras
-
 NumPy
-
 Matplotlib
-
 Flask (for deployment)
-
-
 
 
 
