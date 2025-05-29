@@ -26,13 +26,7 @@ This project demonstrates a complete deep learning workflow — from data prepro
 
 
 ## 🎯 Project Objectives
-
-- Understand the process of training a deep learning model using CNN.
-- Learn how to preprocess image data and normalize inputs.
-- Implement and fine-tune a deep neural network using TensorFlow.
-- Evaluate the model on unseen test data.
-- Visualize training performance and prediction results.
-- Save the trained model for future inference or deployment.
+Learn to preprocess and normalize image data, build and train a CNN using TensorFlow, evaluate it on test data, visualize performance, and save the model for future use or deployment.
 
 ## 📚 Dataset
 
@@ -73,8 +67,6 @@ model.save("cnn_model.h5")
 # OUTPUTS :
 
 ![Image](https://github.com/user-attachments/assets/5342e9eb-a58b-47b0-b913-e72c10baf3c3)
-
-![Image](https://github.com/user-attachments/assets/04c39e53-1de5-4b18-bcb9-bbb973fb7193)
 
 ![Image](https://github.com/user-attachments/assets/dc8ac571-9835-4f14-bfa2-d94fea21377e)
 
