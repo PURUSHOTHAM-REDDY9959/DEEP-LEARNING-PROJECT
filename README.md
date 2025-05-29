@@ -57,57 +57,7 @@ Classes:
 
 The dataset is automatically downloaded using `tensorflow.keras.datasets`.
 
-## 🛠️ Model Architecture
 
-We used a sequential Convolutional Neural Network (CNN) with the following layers:
-
-- Conv2D (32 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Conv2D (64 filters, 3x3 kernel, ReLU)
-- MaxPooling2D (2x2)
-- Conv2D (64 filters, 3x3 kernel, ReLU)
-- Flatten
-- Dense (64 units, ReLU)
-- Dense (10 units, Softmax output layer)
-
-The model was compiled using the **Adam optimizer**, **sparse categorical cross-entropy** as the loss function, and accuracy as the evaluation metric.
-
-## 🧪 Training & Evaluation
-
-The model is trained over **10 epochs** on the training set with real-time validation on the test set. Accuracy and loss values are plotted to visually monitor the training process. After training, the model is evaluated on the test dataset, and the final accuracy is printed.
-
-
-## 📈 Visualizations
-
-Two visualizations are generated and saved:
-- `accuracy_plot.png`: A plot showing how training and validation accuracy progressed over epochs.
-- `sample_predictions.png`: A 3x3 grid of test images showing actual vs predicted labels.
-
-These plots are useful for understanding model behavior and spotting signs of overfitting or underfitting.
-
-
-
-## 💾 Model Saving
-
-The trained model is saved in the HDF5 format as `cnn_model.h5`, allowing easy reuse or deployment in applications without retraining.
-
-```python
-model.save("cnn_model.h5")
-
-
-
-# 📦 Requirements
-Python 3.7+
-
-TensorFlow
-
-Keras
-
-NumPy
-
-Matplotlib
-
-Flask (for deployment)
 
 
 
